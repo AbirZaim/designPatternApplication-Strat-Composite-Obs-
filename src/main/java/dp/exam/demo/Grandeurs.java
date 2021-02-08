@@ -17,10 +17,10 @@ public class Grandeurs {
     private Double dimX;
     private Double dimY;
 
-    public void CalculerSurfaceStrat(){
-        cs.CalculS();
+    public double CalculerSurfaceStrat(){
+        return cs.CalculS();
     }
-    public void CalculerPerimStrat(){
-        cp.CalculP();
+    public double CalculerPerimStrat(){
+        return cp.CalculP();
     }
 }

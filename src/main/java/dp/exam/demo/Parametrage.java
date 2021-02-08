@@ -17,5 +17,6 @@ public class Parametrage extends IObservable {
         this.epaisseur = e;
         this.couleurContour= cc;
         this.couleurRemp = cr;
+        notif();
     }
 }

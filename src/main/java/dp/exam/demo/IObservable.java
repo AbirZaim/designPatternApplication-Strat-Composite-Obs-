@@ -1,11 +1,13 @@
 package dp.exam.demo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class IObservable {
-    public List<IObserver> figs;
+    public List<IObserver> figs = new ArrayList<>();
 
     public void add(IObserver o){
+        System.out.println("added successfully to obs : u ll get notified once we have a new data!");
         this.figs.add(o);
     }
     public void remove(IObserver o){

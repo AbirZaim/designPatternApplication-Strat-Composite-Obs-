@@ -1,6 +1,7 @@
 package dp.exam.demo.composite;
 
 import dp.exam.demo.Grandeurs;
+import dp.exam.demo.IObservable;
 import dp.exam.demo.IObserver;
 import dp.exam.demo.Parametrage;
 import dp.exam.demo.traitement.traiter;
